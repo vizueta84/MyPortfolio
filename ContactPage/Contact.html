@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./Contact.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body class="coffee">
+    <div>
+      <form action="result.html" method="POST">
+        <div>
+          <input type="email" placeholder="email" />
+          <h2>Comments</h2>
+          <textarea
+            placeholder="comments"
+            maxlength="500"
+            minlength="20"
+          ></textarea>
+        </div>
+        <div>
+          <h3>How did You Hear about Me</h3>
+          <input
+            type="checkbox"
+            id="option-1"
+            name="option-1"
+            value="classmate"
+          />
+          <label for="option-1"> Classmate</label><br />
+          <input type="checkbox" id="option-2" name="option-2" value="resume" />
+          <label for="option-2"> Resume Submission</label><br />
+          <input
+            type="checkbox"
+            id="option-3"
+            name="option-3"
+            value="linkdin"
+          />
+          <label for="option-3"> LinkdIn</label>
+          <input type="checkbox" id="option-4" name="option-4" value="rec" />
+          <label for="option-4"> Coding Academy Rec</label>
+        </div>
+        <div>
+          <h3>Can We contact You Back</h3>
+          <input type="radio" id="yes" value="yes" />
+          <label for="yes"> Yes</label>
+          <input type="radio" id="no" value="no" />
+          <label for="no"> no</label>
+        </div>
+        <div>
+          <h3>birthday wish</h3>
+          <label for="birthday">Birthday:</label>
+          <input type="date" id="birthday" name="birthday" />
+          <input type="submit" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
